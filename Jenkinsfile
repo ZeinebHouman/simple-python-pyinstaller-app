@@ -1,4 +1,4 @@
-pipeline666 {
+pipeline {
     agent none
     options {
         skipStagesAfterUnstable()
