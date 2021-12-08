@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             agent {
                 docker {
-                    image 'python:2-alpine'
+                    image 'oprietop/locust-python2'
                 }
             }
             steps {
